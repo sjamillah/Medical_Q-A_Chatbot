@@ -22,7 +22,7 @@ This system addresses the need for reliable medical information access by provid
 
 ```bash
 git clone https://github.com/sjamillah/medical_q-a_chatbot.git
-cd medical-q-a-chatbot
+cd medical_q-a_chatbot
 pip install -r requirements.txt
 python main.py
 ```
@@ -70,11 +70,11 @@ Performance varies by medical category:
 
 ```
 medical-qa-system/
-├── interface/
 ├── dataset/
-├── data/
+├── interface/
 ├── models/
 ├── notebooks/
+├── scripts/
 ├── requirements.txt
 └── main.py
 ```
