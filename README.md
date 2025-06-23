@@ -21,7 +21,7 @@ This system addresses the need for reliable medical information access by provid
 ### Setup
 
 ```bash
-git clone https://github.com/sjamillah/medical-q-a-chatbot.git
+git clone https://github.com/sjamillah/medical_q-a_chatbot.git
 cd medical-q-a-chatbot
 pip install -r requirements.txt
 python main.py
