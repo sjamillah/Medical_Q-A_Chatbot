@@ -84,7 +84,7 @@ medical-qa-system/
 To train your own model:
 
 ```bash
-python src/data/model.py
+python src/data/final_tensorflow_extractive_q&a_chatbot.py
 ```
 
 ## Testing
