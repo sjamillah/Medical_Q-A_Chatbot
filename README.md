@@ -72,6 +72,7 @@ Performance varies by medical category:
 medical-qa-system/
 ├── interface/
 ├── dataset/
+├── data/
 ├── models/
 ├── notebooks/
 ├── requirements.txt
@@ -83,9 +84,7 @@ medical-qa-system/
 To train your own model:
 
 ```bash
-python src/data/prepare_data.py
-python src/models/train_model.py --config config/training_config.yaml
-python src/models/evaluate_model.py --model_path models/your_model
+python src/data/model.py
 ```
 
 ## Testing
